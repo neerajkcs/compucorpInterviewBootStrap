@@ -1,0 +1,41 @@
+header#navbar {
+    margin: 0 0 25px 0;
+    background: #d83454;
+    color: #ffffff;
+    padding: 25px 0;
+    border: none;
+    border-radius: 0;
+	
+	a {
+		color: #ffffff;
+		text-decoration: none;
+
+		&:hover, &:focus {
+			color: #ffffff;
+		}
+	}
+}
+
+.navbar-nav {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.footer {
+  border: none;
+	background: #f1f2f2;
+	color: #414042;
+	text-align: center;
+  
+  a {
+    color: #414042;
+
+    &:hover, &:focus {
+      color: #d83454;
+    }
+  }
+}
+
+.not-front #main {
+  padding: 25px 0 50px;
+}

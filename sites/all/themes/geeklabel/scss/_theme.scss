@@ -1,0 +1,162 @@
+/************** HEADER ********************/
+
+header .navbar-brand  {
+  color: #ffffff;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.navbar-btn {
+	margin: 0;
+}
+
+.navbar-nav {
+  > li > a {
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+  }
+
+  .navbar-default & > .active {
+    > a.active,
+    > a:hover,
+    > a:focus {
+      background-color: #ffffff;
+      color: #d83454 !important;
+    }
+  }
+}
+
+.btn-primary, .btn-success {
+	background-color: #d83454;
+  border-color: #d83454;
+
+  &:hover,
+  &:focus,
+  &:active:hover,
+  &:active:focus,
+  &.active:hover,
+  &.active:focus
+  &.active.focus,
+  .open > &.dropdown-toggle:hover,
+  .open > &.dropdown-toggle:focus,
+  .open > &.dropdown-toggle.focus {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    color: #414042;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/************** HEADER & FOOTER ********************/
+
+.node-teaser {
+  border-bottom: solid 1px #f1f2f2;
+  padding-bottom: 15px;
+
+  &.node-blog:last-child {
+    border:none;
+  }
+}
+
+ul.links.list-inline {
+  border: none;
+  margin: 20px 0 20px 0;
+  padding: 0;
+  white-space: normal;
+}
+
+ul.links.list-inline, ul.action-links {
+  display: block;
+  margin: 0;
+  padding: 15px 0;
+}
+
+ul.nav-tabs {
+  border: none;
+  margin: 20px 0 20px 0;
+  padding: 0;
+  white-space: normal;
+
+  > li > a {
+    border-radius: 0;
+  }
+
+  > li.active {
+    > a,
+    > a:hover,
+    > a:focus {
+      background-color: #d83454;
+      border: solid 1px #d83454;
+      color: #ffffff;
+    }
+  }
+  
+}
+
+ul.nav-tabs, ul.links.list-inline, ul.action-links{
+  li {
+    display: inline-block;
+    padding: 0;
+
+    a {
+      background-color: transparent;
+      border: solid 1px #d83454;
+      color: #d83454;
+      display: inline-block;
+      font-size: 13px;
+      height: auto;
+      margin-right: 0.5em;
+      padding: 8px 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:hover, &:focus {
+        background-color: #d83454;
+        border: solid 1px #d83454;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+#edit-cancel {
+  margin-left: 15px;
+}
+
+/************** FORM INPUT BUTTON STYLE ***********************/
+input.form-text, .form-textarea-wrapper textarea, select, select.form-select {
+  border: solid 2px #cccccc;
+  border-radius: 2px;
+  color: #414042;
+  height: 45px;
+  padding: 7px 10px;
+  max-width: 100%;
+}
+
+.form-textarea-wrapper textarea {
+  height: auto;
+}
+
+input.form-submit {
+  background-color: transparent;
+  border: solid 1px #d83454;
+  color: #d83454;
+  display: inline-block;
+  font-size: 13px;
+  outline: none;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  max-width: 100%;
+
+  &:hover, &:focus {
+    background-color: #d83454;
+    color: #ffffff;
+  }
+}
+
+
+
+.description {
+  padding: 5px 0 0 0;
+}
