@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('../fonts/museo-sans-300-webfont.woff2') format('woff2'),
+         url('../fonts/museo-sans-300-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 // Default variables.
 @import 'default-variables';
 
@@ -6,3 +15,10 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+// SMACSS
+@import 'base';
+@import 'layout';
+@import 'modules';
+@import 'state';
+@import 'theme';
