@@ -1814,7 +1814,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #f1f2f2;
 }
 
 /* line 125, ../bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -2138,7 +2138,7 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #f1f2f2;
 }
 
 /* line 149, ../bootstrap/assets/stylesheets/bootstrap/_type.scss */
@@ -2239,7 +2239,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #f1f2f2;
 }
 /* line 250, ../bootstrap/assets/stylesheets/bootstrap/_type.scss */
 blockquote p:last-child,
@@ -2268,7 +2268,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #f1f2f2;
   border-left: 0;
   text-align: right;
 }
@@ -3875,7 +3875,7 @@ output {
 }
 /* line 146, ../bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
   opacity: 1;
 }
 /* line 153, ../bootstrap/assets/stylesheets/bootstrap/_forms.scss */
@@ -5339,7 +5339,7 @@ tbody.collapse.in {
   line-height: 1;
   color: #555555;
   text-align: center;
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -5458,7 +5458,7 @@ tbody.collapse.in {
 /* line 23, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
 }
 /* line 31, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li.disabled > a {
@@ -5473,7 +5473,7 @@ tbody.collapse.in {
 }
 /* line 46, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
   border-color: #337ab7;
 }
 /* line 59, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
@@ -5506,7 +5506,7 @@ tbody.collapse.in {
 }
 /* line 89, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #ddd;
+  border-color: #f1f2f2 #f1f2f2 #ddd;
 }
 /* line 96, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -6328,7 +6328,7 @@ tbody.collapse.in {
 .pagination > li > span:focus {
   z-index: 2;
   color: #23527c;
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
   border-color: #ddd;
 }
 /* line 52, ../bootstrap/assets/stylesheets/bootstrap/_pagination.scss */
@@ -6428,7 +6428,7 @@ tbody.collapse.in {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
 }
 /* line 31, ../bootstrap/assets/stylesheets/bootstrap/_pager.scss */
 .pager .next > a,
@@ -6594,7 +6594,7 @@ a.badge:hover, a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
 }
 /* line 13, ../bootstrap/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron h1,
@@ -7005,7 +7005,7 @@ button.list-group-item {
 
 /* line 70, ../bootstrap/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
-  background-color: #eeeeee;
+  background-color: #f1f2f2;
   color: #777777;
   cursor: not-allowed;
 }
@@ -9548,7 +9548,7 @@ a .glyphicon-spin {
 }
 /* line 625, ../scss/_overrides.scss */
 .tabs-left > .nav-tabs > li > a:hover, .tabs-left > .nav-tabs > li > a:focus {
-  border-color: #eeeeee #ddd #eeeeee #eeeeee;
+  border-color: #f1f2f2 #ddd #f1f2f2 #f1f2f2;
 }
 /* line 630, ../scss/_overrides.scss */
 .tabs-left > .nav-tabs > .active > a,
@@ -9571,7 +9571,7 @@ a .glyphicon-spin {
 }
 /* line 646, ../scss/_overrides.scss */
 .tabs-right > .nav-tabs > li > a:hover, .tabs-right > .nav-tabs > li > a:focus {
-  border-color: #eeeeee #eeeeee #eeeeee #ddd;
+  border-color: #f1f2f2 #f1f2f2 #f1f2f2 #ddd;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
@@ -9897,7 +9897,7 @@ a {
 }
 /* line 55, ../scss/_base.scss */
 a:hover, a:focus {
-  color: #5fc0c3;
+  color: #d83454;
   text-decoration: none;
 }
 
@@ -9929,4 +9929,238 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+}
+
+/************** HEADER & FOOTER ********************/
+header#navbar {
+    margin: 0 0 25px 0;
+    background: #d83454;
+    color: #ffffff;
+    padding: 25px 0;
+    border: none;
+    border-radius: 0;
+}
+header#navbar a {
+	color: #ffffff;
+	text-decoration: none;
+}
+header#navbar a:hover, header#navbar a:focus {
+	color: #ffffff;
+}
+header .navbar-brand  {
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.navbar-btn {
+	margin: 0;
+}
+.footer {
+	border: none;
+	background: #f1f2f2;
+	color: #414042;
+	text-align: center;
+}
+.footer a {
+	color: #414042;
+}
+
+a:hover, a:focus, .footer a:hover, .footer a:focus {
+	color: #d83454;
+}
+.navbar-nav > li > a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #ffffff;
+	color: #d83454 !important;
+}
+.navbar-nav {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.btn-primary, .btn-success {
+	background-color: #d83454;
+    border-color: #d83454;
+}
+.btn-primary:hover, .btn-success:hover, .btn-primary:focus, .btn-success:focus {
+	background-color: #f1f2f2;
+	border-color: #dddddd;
+	color: #414042;
+}
+/************** HEADER & FOOTER ********************/
+
+.not-front #main {
+  padding: 25px 0 50px;
+}
+
+.node-teaser {
+  border-bottom: solid 1px #f1f2f2;
+  padding-bottom: 15px;
+}
+
+.node-blog.node-teaser:last-child {
+  border: none;
+}
+
+ul.nav-tabs, ul.links.list-inline {
+  border: none;
+  margin: 20px 0 20px 0;
+  padding: 0;
+  white-space: normal;
+}
+
+ul.links.list-inline, ul.action-links {
+  display: block;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.nav-tabs > li > a {
+	border-radius: 0;
+}
+
+ul.nav-tabs li, ul.links.list-inline li, ul.action-links li {
+  display: inline-block;
+  padding: 0;
+}
+ul.nav-tabs li a, ul.links.list-inline li a, ul.action-links li a {
+  background-color: transparent;
+  border: solid 1px #d83454;
+  color: #d83454;
+  display: inline-block;
+  font-size: 13px;
+  height: auto;
+  margin-right: 0.5em;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul.nav-tabs li a:hover, ul.nav-tabs li a:focus, ul.links.list-inline li a:hover, ul.links.list-inline li a:focus, ul.action-links li a:hover, ul.action-links li a:focus, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: #d83454;
+  border: solid 1px #d83454;
+  color: #ffffff;
+}
+
+#edit-cancel {
+  margin-left: 15px;
+}
+
+/************** FORM INPUT BUTTON STYLE ***********************/
+input.form-text, .form-textarea-wrapper textarea, select {
+  border: solid 1px #dddddd;
+  color: #414042;
+  padding: 7px 10px;
+  max-width: 100%;
+}
+
+.form-textarea-wrapper textarea {
+  height: auto;
+}
+
+input.form-submit {
+  background-color: transparent;
+  border: solid 1px #d83454;
+  color: #d83454;
+  display: inline-block;
+  font-size: 13px;
+  outline: none;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+
+input.form-submit:hover, input.form-submit:focus {
+  background-color: #d83454;
+  color: #ffffff;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.description {
+  padding: 5px 0 0 0;
+}
+
+/************** COMMENT FORM ****************/
+
+.comment-wrapper h2.title {
+  color: #d83454;
+}
+
+
+.comment-form {
+  border: solid 2px #f1f2f2;
+  padding: 30px;
+}
+
+.comment-form input.form-submit {
+  margin-right: 10px;
+}
+
+
+.filter-wrapper {
+  border: solid 3px #f1f2f2;
+}
+
+
+.comment {
+  position: relative;
+}
+
+.comment h3 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.comment .new {
+  color: #d83454;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.comment, .indented {
+  border: solid 1px #f1f2f2;
+  padding: 15px 15px 15px 15px;
+}
+
+
+.submitted {
+  border-bottom: solid 1px #f1f2f2;
+  border-top: solid 1px #f1f2f2;
+  font-size: 12px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+
+.indented {
+  margin-left: 50px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.indented .indented {
+  margin-left: 25px;
+}
+
+.indented .comment {
+  border: none;
+  padding: 0;
+}
+
+.indented:before {
+  content: '';
+  background: url(../images/reply.png) no-repeat 0 0 transparent;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  left: -33px;
+  top: 20px;
 }
