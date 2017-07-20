@@ -9984,10 +9984,12 @@ a:hover, a:focus, .footer a:hover, .footer a:focus {
 	background-color: #d83454;
     border-color: #d83454;
 }
-.btn-primary:hover, .btn-success:hover, .btn-primary:focus, .btn-success:focus {
-	background-color: #f1f2f2;
-	border-color: #dddddd;
-	color: #414042;
+.btn-primary:hover, .btn-success:hover, .btn-primary:focus, .btn-success:focus, .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
+	background-color: #cccccc;
+    border-color: #cccccc;
+    color: #414042;
+    outline: none;
+    box-shadow: none;
 }
 /************** HEADER & FOOTER ********************/
 
@@ -10049,9 +10051,11 @@ ul.nav-tabs li a:hover, ul.nav-tabs li a:focus, ul.links.list-inline li a:hover,
 }
 
 /************** FORM INPUT BUTTON STYLE ***********************/
-input.form-text, .form-textarea-wrapper textarea, select {
-  border: solid 1px #dddddd;
+input.form-text, .form-textarea-wrapper textarea, select, select.form-select {
+  border: solid 2px #cccccc;
+  border-radius: 2px;
   color: #414042;
+  height: 45px;
   padding: 7px 10px;
   max-width: 100%;
 }
@@ -10088,10 +10092,12 @@ label {
 /************** COMMENT FORM ****************/
 
 .comment-wrapper h2.title {
-  color: #d83454;
+	background: #d83454;	
+    border: none;
+    color: #fff;
+	margin-bottom: 0;
+	padding: 15px;
 }
-
-
 .comment-form {
   border: solid 2px #f1f2f2;
   padding: 30px;
@@ -10163,4 +10169,10 @@ label {
   position: absolute;
   left: -33px;
   top: 20px;
+}
+
+.search-form .input-group-btn .btn, .form-search .input-group-btn .btn {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
 }
