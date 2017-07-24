@@ -1,0 +1,100 @@
+
+a {
+  &:hover, &:focus {
+    color: #d83454;
+    text-decoration: none;
+  }
+}
+
+.navbar-nav {
+  .navbar-default & > .active {
+    > a.active,
+    > a:hover,
+    > a:focus {
+      background-color: #ffffff;
+      color: #d83454 !important;
+    }
+  }
+}
+
+.btn-primary, .btn-success {
+  &:hover,
+  &:focus,
+  &:active:hover,
+  &:active:focus,
+  &.active:hover,
+  &.active:focus
+  &.active.focus,
+  .open > &.dropdown-toggle:hover,
+  .open > &.dropdown-toggle:focus,
+  .open > &.dropdown-toggle.focus {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    color: #414042;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+ul.nav-tabs {
+  > li.active {
+    > a,
+    > a:hover,
+    > a:focus {
+      background-color: #d83454;
+      border: solid 1px #d83454;
+      color: #ffffff;
+    }
+  }
+}
+
+ul.nav-tabs, ul.links.list-inline, ul.action-links{
+  li {
+    a {
+      &:hover, &:focus {
+        background-color: #d83454;
+        border: solid 1px #d83454;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+input.form-submit {
+  &:hover, &:focus {
+    background-color: #d83454;
+    color: #ffffff;
+  }
+}
+
+.btn-default:hover, 
+.btn-default:focus {  
+  background: #414042;  
+  border: none; 
+  color: #ffffff;
+}
+
+.scroll-section { 
+  a:hover, a:focus { 
+    background: #d83454;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 0 0 5px #a5a5a5;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    display: block;
+    outline: none;
+    text-align: center;
+    line-height: 45px;
+
+    .arrow--grey & {
+      background: none;
+      color: #414042;
+      border: solid 1px #414042;
+      box-shadow: inset 0 0 1px #414042;
+      line-height: 45px;
+    }
+  } 
+}

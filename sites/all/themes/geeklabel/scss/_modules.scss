@@ -1,20 +1,66 @@
 /* Home Sections */
 
-.home-section-wrapper {
-	.section {
+.section {
+	.home-section-wrapper & {
 		display: table;
 		width: 100%;
 		height: 100vh;
+		position: relative;	
+  		padding: 50px 0 100px;
+	}
 
-		&__content {
-			display: table-cell;
-    		vertical-align: middle;
-    		text-align: center;
+	&.container-override .container {
+		width: 100%;
+	 	max-width: 100%;
+	  	padding: 0;
+	}
 
-    		img {
-    			display: inline-block;
-    		}
+	&__title {
+		color: #414042;	  
+  		margin: 0 0 50px 0;
+	}
+
+	&__body {
+		color: #414042;
+		padding-top: 70px;
+	}
+
+	.color-white &__body {
+		color: #ffffff;
+	}
+
+	&__content {
+		display: table-cell;
+    	vertical-align: middle;
+    	text-align: center;
+		width: 100%;
+
+    	img {
+    		display: inline-block;
+    	}
+	}
+
+	@media only screen and (min-width: 992px) {
+		&--home-intro &__content {
+			vertical-align: bottom;
+	    	padding-bottom: 45px;
 		}
+	}
+
+	&--home-intro &__body {		
+    	padding-top: 75px;
+	}
+
+	@media only screen and (max-width: 480px) {
+		&--home-intro &__body {		
+	    	padding-top: 55px;
+		}
+
+		&--home-intro &__content {
+			vertical-align: bottom;
+	    	padding-bottom: 35px;
+		}
+
 	}
 }
 
@@ -103,4 +149,104 @@
 	    line-height: 45px;
 	    padding: 0 15px;
     }
+}
+
+/**** Services ****/
+
+.services {
+	&__type {	
+  		display: inline-block;
+  		padding: 0 30px 0 30px;
+  		vertical-align: top;
+  	}
+
+  	&__image {
+		background-color: #d83454;	
+		border-radius: 50% 50% 50% 50%;	
+		display: inline-block;	
+		width: 185px;	
+		height: 185px;		
+		text-align: center;	
+		vertical-align: middle; 
+		line-height: 185px;
+	}
+
+	&__name {	
+		color: #414042;	
+		padding: 40px 0 0 0;
+	}
+}
+
+/**** Clients List ****/
+
+.clients-list {		
+  padding: 0 30px;	
+  position: relative;
+
+	.owl-controls .owl-buttons div{
+		background: none;    
+		border-radius: 0;    
+		width: 9px;    
+		height: 15px;    
+		text-indent: -9999px;    
+		position: absolute;    
+		top: 50%;    
+		margin: -4px 0 0 0;
+
+		&.owl-prev {	
+			background: url(../images/icon_arrow_left.png) no-repeat 0 0 transparent;	
+			left: -15px;	
+			right: auto;
+		}
+
+		&.owl-next {	
+			background: url(../images/icon_arrow_right.png) no-repeat 0 0 transparent;	
+			left: auto;	
+			right: -15px;
+		}
+  	}
+}
+
+
+/**** Find Us gMap ****/
+
+.colorized-gmap-common {	
+	width: 100%;	
+	height: 366px;
+
+	> div > div > div > div + div + div > div {
+  		box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+	}
+}
+
+/**** Scroll Button ****/
+
+.scroll-section {	
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 43px;
+	
+	a {	
+		background: #d83454;
+		border-radius: 50% 50% 50% 50%;
+		box-shadow: 0 0 5px #a5a5a5;
+		border: solid 2px #ffffff;
+		color: #ffffff;
+		font-size: 25px;
+		width: 45px;
+		height: 45px;
+		display: block;
+		outline: none;
+		text-align: center;
+	    line-height: 45px;
+
+	    .arrow--grey & {
+	    	background: none;
+			color: #414042;
+			border: solid 1px #414042;
+			box-shadow: inset 0 0 1px #414042;
+			line-height: 45px;
+	    }
+	}
 }
